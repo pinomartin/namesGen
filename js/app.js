@@ -40,7 +40,7 @@ function cargarNombres(e){
             //Accedo a al array de objetos del Json (personas)
             const nombres = respuesta.results;
             console.log(nombres);
-            let html = '<h2>Nombres Generados</h2>';
+            let html = '<h4>Nombres Generados</h4>';
             html += '<ul class="lista">';
             
             nombres.forEach(function(nombre){

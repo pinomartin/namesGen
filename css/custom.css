@@ -5,6 +5,7 @@ body {
 }
 .contenido {
     margin-top: 40px;
+    
 }
 h1 {
     color: white;
@@ -15,6 +16,7 @@ h1 {
 form {
     background-color: white;
     padding: 50px;
+    border-radius: 10px;
 }
 
 .lista {
@@ -28,4 +30,9 @@ form {
 }
 .lista li:last-child{
     margin:0;
+}
+
+h4{
+    text-align: center;
+    
 }
